@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+
+    <div  id="login">
+    <h1>Conta</h1>
+    <a href="index.html">Home</a><br>
+    <br>
+    <br>
+
+    
+    <input type="text" id="nomeLogin" placeholder="Nome de Usuário"required><br>
+    <br>
+    <input type="email" id="emaillogin" placeholder="E-mail" required><br>
+    <br>
+    <input type="password" id="senhaLogin" placeholder="Senha" required><br>
+    <br>
+    <input type="number"  id="telefoneLogin" placeholder="(31) 99999-9999" required><br><br>
+
+    <button onclick="entrar()">Entrar</button>
+
+    <p>
+      Não tem uma conta?
+      <a href="#" onclick="mostrarCadastro()">Criar conta</a> 
+    </p>
+
+  <button onclick="sair()">Sair da conta</button>
+    </div>
+  
+
+
+
+
+
+    <div  id="cadastro">
+    <h1>Criar conta</h1>
+    <a href="index.html">Home</a><br><br>
+
+    <input type="text" id="nomeCadastro" placeholder="Nome de Usuário" required><br>
+    <br>
+    <input type="email" id="emailCadastro" placeholder="E-mail" required><br>
+    <br>
+    <input type="password" id="senhaCadastro" placeholder="Senha"required><br>
+    <br>
+    <input type="number"  id="telefoneCadastro" placeholder="(31) 99999-9999" required><br><br>
+
+     <button onclick="cadastrar()">Criar conta</button>
+
+       <p>
+        Já possui uma conta?
+      <a href="#" onclick="mostrarLogin()">Entrar</a> 
+    </p>
+
+    
+
+</div>
+ 
+ <script src="geral.js"></script>
+
+
+
+    
+</body>
+</html>
