@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calveludos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+ <header class="menu">         
+  
+   <img src="calveludos2.jpg" class="logo">
+
+<nav>
+         <a href="#Home">Home</a>
+          <a href="#Quem Somos">Quem Somos</a>
+            <a href="#Serviços">Serviços</a>
+             <a href="#Horários">Horários</a>
+             <a href="#Agendar">Agendar</a>
+             <a href="conta.html" id="conta"> Conta</a>
+        </nav>
+      
+
+ </header>
+    
+ 
+
+
+   <main>
+      <section id="Home"> 
+        <h1>Seja bem-vindo! Faça seu agendamento e venha mudar o seu visual com a gente, seja você calvo ou cabeludo!</h1>
+       
+
+    <img src="logo.jpg" class="banner">
+    
+
+
+
+  <section id="Quem Somos"> 
+     <h1>Quem Somos?</h1>
+     <h2>O Calveludos é uma barbearia localizada na região de Venda Nova e busca oferecer mais praticidade no agendamento e mais conforto aos clientes, seja pelo site ou presencialmente. Oferecemos serviços variados e que dificilmente você encontrará em outra barberia da região.</h2>
+   </section>
+
+    <br>
+    <br>
+
+   <div class="Profissionais"> 
+
+    <div class="eu">     
+    <img src="barbeiro.png" alt="barbeiro">
+     <h2> GABRIEL </h2>
+     <h3>Profissional Parceiro</h3>
+    </div>
+
+<div class="cerrote">      
+    <img src="barbeiro2.jpg" alt="barbeiro">
+     <h2>SAMUEL</h2>
+     <h3>Profissional Parceiro</h3>
+</div>
+  
+
+   
+      <div class="vesley">
+        <img src="barbeiro3.jpg" alt="barbeiro">
+        <h2>WESLEY</h2>
+        <h3>Profissional Parceiro</h3>
+      </div>
+
+   </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      
+
+      <section id="Serviços">
+        <h1>SERVIÇOS OFERECIDOS:</h1>
+<ul>
+      <li>Corte de Cabelo: R$35,00</li>
+      <br>
+      <li>Barba: R$15,00</li>
+      <br>
+      <li>Cabelo e Barba: R$50.00</li>
+      <br>
+      <li>Pezinho: R$10,00</li>
+      <br>
+       <li>Pezinho e Barba: R$25,00</li>
+</ul>
+      </section>
+
+     <br>
+     <br>
+
+<section id="Horários">
+  <h1>HORÁRIOS DISPONÍVEIS:</h1>
+
+
+    <ul>
+        <li><strong>Segunda-feira:</strong> 09:00 - 19:00</li><br>
+        
+        <li><strong>Terça-feira:</strong> 09:00 - 19:00</li><br>
+
+        <li><strong>Quarta-feira:</strong> 09:00 - 19:00</li><br>
+
+        <li><strong>Quinta-feira:</strong> 09:00 - 19:00</li><br>
+
+        <li><strong>Sexta-feira:</strong> 09:00 - 20:00</li><br>
+
+        <li><strong>Sábado:</strong> 09:00 - 20:00</li><br>
+        
+        <li><strong>Domingo:</strong> Fechado</li><br>
+    </ul>
+
+
+
+</section>
+
+
+
+
+
+
+<fieldset>
+      <section id="Agendar"> 
+       <h1>ESCOLHA O SERVIÇO DESEJADO E AGENDE O SEU HORÁRIO!</h1>
+
+        <form onsubmit="cadastrarAgendamento(); return false;"> 
+
+
+                <label><strong>NOME DO CLIENTE:</strong></label><br>
+                <input type="text" id="nome" required>
+                
+             <br>
+             <br>
+             <br>
+
+<label><strong>TELEFONE:</strong></label><br>
+<input type="number"  id="telefone" placeholder="(31) 99999-9999" required>
+<br>
+<br>
+
+<label><strong>IDADE:</strong></label><br>
+<input type="number"  id="idade" required><br><br>
+
+
+<label><strong>DATA:</strong></label><br>
+<input type="date"  id="data" required><br><br>
+
+<label><strong> HORÁRIO:</strong></label><br>
+<input type="time"  id="horario" required>
+
+
+
+                    <br>
+               <br>
+                   <br>
+
+
+         <label><strong>SERVIÇOS:</strong></label><br>
+<select required>
+     <option value="" selected disabled>Escolha um serviço</option>
+     <option value="Cabelo" >Cabelo</option>
+     <option value="Barba" >Barba</option>
+     <option value="Cabelo e Barba">Cabelo e Barba</option>
+     <option value="Pezinho">Pezinho</option>
+     <option value="Pezinho e Barba">Pezinho e Barba</option>
+
+
+</select>
+
+       <br>
+        <br>
+
+
+        <input class="botao" type="submit" value="AGENDAR">
+
+
+        </form>
+      </section><br><br>
+     
+</fieldset>
+
+
+
+  
+   <h1>CONTATOS</h1>
+<h3>ENDEREÇO: Rua Padre Pedro Pinto 442 - Lojas 1 e 2 - Belo Horizonte</h3>
+<h3>Bairro: Venda Nova</h3>
+<h3>CEP: 31610-000</h3>
+
+
+
+<a href="https://wa.me/5531988655133">
+    <img src="whatsapp.png" alt="WhatsApp">
+   
+</a>
+<br>
+
+
+
+<a href="https://www.instagram.com/wesley_am_7090" target="_blank">
+    <img src="insta.jpg" alt="Instagram">
+</a>
+
+
+
+
+
+</section>
+    
+
+
+ 
+
+
+
+   </main>
+
+
+
+<footer>
+   <p>2026  Calveludos - Todos os direitos reservados</p>
+</footer>
+
+<script src="geral.js"></script>
+</body>
+</html>
